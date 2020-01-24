@@ -1,0 +1,112 @@
+.footer {
+    
+    background: url(../img/adoptionPageImg.jpg);
+    background-size: cover;
+    position: fixed;
+    left: 0;
+    height: 28%;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
+div p {
+    margin-bottom: 0rem;
+}
+
+#footertext {
+    margin-top: 2em;
+    font-size: 1.7em;
+    font-weight: 700;
+    font-family: arial;
+    line-height: 1.2;
+}
+
+#arrow {
+    font-size: 2em;
+    margin-left: 1%;
+    margin-top: 1%;
+    color: #494949;
+    margin-right: 28%;
+}
+
+.cont1 {
+    display: flex;
+    flex-flow: row nowrap;
+    margin-bottom: 2%;
+}
+
+#title {
+    font-family: Arial;
+    font-weight: bold;
+    line-height: 1.2;
+    color: #494949;
+    margin-top: 4%;
+    font-size: 2.4em;
+}
+
+
+.cont2 {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    margin-right: 8%;
+}
+
+.cont3 {
+    display: flex;
+    flex-flow: column wrap;
+    margin-left: 6%;
+}
+
+div .maininfo {
+    width: 18em;
+    height: 3em;
+    border-radius: 10px;
+    border: solid 3px #000000;
+    background-color: #ffffff;
+    font-size: 0.7em;
+}
+
+div .label {
+    display: inline-block;
+    margin-bottom: 0rem;
+    font-family: Arial;
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 1.15;
+    text-align: left;
+    color: #494949;
+}
+
+.cont3 .form {
+    margin-top: 3%;
+}
+
+.cont3 .question {
+    border-radius: 10px;
+    border: solid 3px #000000;
+    background-color: #ffffff;
+    height: 8em;
+    font-size: 0.7em;
+    margin-bottom: 2em;
+}
+
+.cont4 {
+    margin-top: 1%;
+}
+
+#button {
+    background-color: #494949;
+    color: white;
+    border-radius: 0.7em;
+}
+.fa-paw:before {
+    margin-right: 0.3em;
+}
+
+.cont5 {
+    text-align: center;
+    margin-top: 1%;
+}

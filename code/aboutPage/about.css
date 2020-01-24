@@ -1,0 +1,124 @@
+body {
+	/* background-image: url(../img/aboutPageImg.jpg); */
+	background-size: 100%;
+	background-position: center 45%;
+    background-attachment: fixed;
+    background-size: cover;
+    background-image: url(../img/aboutPage_mdfy.jpg);
+    
+}
+
+
+html {
+    width: 100%;
+    height: 100%;
+    
+}
+
+p {
+    font-family: Arial;
+  font-size: 1em;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.55;
+  letter-spacing: 0.87px;
+  text-align: center;
+  color: #f2f2f2;
+  
+}
+#nav {
+    padding-right: 8em;
+}
+
+li.nav-item {
+    margin: -0.5rem 0rem;
+}
+
+li.nav-item.active {
+    background: rgba(0,0,0,0.1);
+}
+
+li:hover {
+    background: rgba(0,0,0,0.1);
+}
+
+li.nav-item a {
+    padding: 1rem 1rem;
+}
+
+a.navbar-brand {
+    margin-left: 8rem;
+}
+
+.fa-user:before {
+    padding-right: 1px;
+}
+
+.fa-user-plus:before {
+    padding-right: 2px;
+}
+
+#h1 {
+  width: 552px;
+  height: 128px;
+  text-shadow: 0 3px 6px rgba(0, 0, 0, 0.76);
+  font-family: Arial;
+  font-size: 3.5em;
+  font-weight: bold;
+  line-height: 1.56;
+  letter-spacing: 3.45px;
+  color: #f2f2f2;
+  margin-top: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+
+ @media screen and (max-width: 980px) {
+     #nav {
+         padding-right: 0em;
+     }
+     
+     a.navbar-brand {
+        margin-left: 1rem;
+        font-size: 3.3rem;
+     }
+
+     .navbar .navbar-toggler {
+         margin-right: 20px;
+         border: solid 1px #707070;
+         border-radius: 0.8em;
+
+     }
+
+     .navbar .navbar-toggler .navbar-toggler-icon {
+        width: 4em;
+        height: 4em;
+     }
+
+     .navbar .navbar-nav .nav-link {
+         font-size: 1.75rem;   
+     }
+
+    li.nav-item {
+        margin: 0rem 0rem;
+        margin-right: 0em;
+        margin-left: -1em;
+        padding-left: 1em;
+    }
+    
+    p {
+    font-size: 1.7em;
+    font-weight: normal;
+    width: 24em;
+    margin-left: -1.9em;
+    }
+     
+ }
+
+
+
+
