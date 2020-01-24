@@ -44,9 +44,11 @@
           </ul>
       
           <ul class="navbar-nav ml-auto">
+
               <li class="nav-item active">
                   <a class="nav-link" href="../accountPage/account.html"><i class='fas fa-user'></i>My Account</a>
-              </li>            
+              </li>       
+    
           </ul>
       
         </div> 
@@ -84,6 +86,7 @@
                 <label class="label" for="inputCountry">COUNTRY</label>
                 <input type="text" class="form-control" id="inputCountry" placeholder="United States">
             </div>
+            
         </div>
       </div>
       
