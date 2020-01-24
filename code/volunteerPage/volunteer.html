@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- CSS file -->
+	<link rel="stylesheet" type="text/css" href="volunteer.css">
+
+	<!-- BOOTSTRAP 4.3.1 -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+	<!-- TITLE -->
+  <title>Purrfec Project - volunteer form</title>
+  
+  <!-- ICONS -->
+  <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+</head>
+<body>
+
+<div class="flex-container cont1">
+    <div id="arrow"><i class="fas fa-chevron-left"></i></div>
+    <div><h1 id="title">FORM FOR VOLUNTEERS</h1></div>
+</div>
+
+<div class="flex-container cont2">
+    <div class="cont3">
+        <div id="fullnamebox" class="form">
+            <label class="label" for="inputName">Full name</label>
+            <input type="text" class="form-control maininfo" id="inputName" placeholder="Name Surname">
+        </div>
+        <div id="phonebox" class="form">
+            <label class="label" for="inputPhone">Phone number</label>
+            <input type="text" class="form-control maininfo" id="inputPhone" placeholder="+0000000000">
+        </div>
+        <div id="emailbox" class="form">
+            <label class="label" for="inputEmail">Email adress</label>
+            <input type="text" class="form-control maininfo" id="inputEmail" placeholder="examplemail@mail.com">
+        </div>
+        <div id="citybox" class="form">
+            <label class="label" for="inputCity">City / Country</label>
+            <input type="text" class="form-control maininfo" id="inputCity" placeholder="Roseville">
+        </div>
+    </div>
+    <div class="cont3">
+        <div class="cont4">
+            <label class="label" for="question1">Tell us more about yourself!</label>
+            <textarea class="form-control question" id="question1" placeholder="Type something..."></textarea>
+        </div>
+        <div>
+            <label class="label" for="question2">How did you find out about the PurrfectHome Project?</label>
+            <textarea class="form-control question" id="question2" placeholder="Type something..."></textarea>
+        </div>
+    </div>
+    <div class="cont3">
+        <div class="cont4">
+            <label class="label" for="question3">Do you have volunteering experience?</label>
+            <textarea class="form-control question" id="question3" placeholder="Type something..."></textarea>
+        </div>
+        <div>
+            <label class="label" for="question4">Why are you interested in volunteering in this project?</label>
+            <textarea class="form-control question" id="question4" placeholder="Type something..."></textarea>
+        </div>
+    </div>
+
+</div>
+
+<div class="cont5"><button id="button" class="btn btn-primary" type="submit"><i class='fas fa-paw' id="paw"></i>Send VForm</button></div>
+
+<div class="footer">
+    <div id="footertext">
+        <p>One of our team will be in contact with you shortly!</p>
+        <p>Thank you for your interest!</p>
+    </div>
+</div>
+
+
+<!-- JQUERY -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- POPPER FOR DROPDOWNS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+
+<!-- BOOTSTRAP JS -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous" ></script>
+
+</body>
+</html>
